@@ -8,25 +8,17 @@ import java.util.*;
  */
 public class Casa {
 
-    /**
-     * Default constructor
-     */
+
     public Casa() {
     }
 
-    /**
-     * 
-     */
+
     private String direccion;
 
-    /**
-     * 
-     */
+
     private int numHabitaciones;
 
-    /**
-     * 
-     */
+
     private int metrosCuadrados;
 
     /**
@@ -69,29 +61,25 @@ public class Casa {
      * @param direccion
      */
     public void setDireccion(String direccion) {
-        // TODO implement here
+        this.direccion = direccion;
     }
 
     /**
      * @param numHabitaciones
      */
     public void setnumHabitaciones(int numHabitaciones) {
-        // TODO implement here
+        this.numHabitaciones = numHabitaciones;
     }
 
     /**
      * @param metrosCuadrados
      */
     public void setmetrosCuadrados(int metrosCuadrados) {
-        // TODO implement here
+        this.metrosCuadrados = metrosCuadrados; 
     }
 
-    /**
-     * @return
-     */
-    public String toString() {
-        // TODO implement here
-        return "";
-    }
+
+
+
 
 }
